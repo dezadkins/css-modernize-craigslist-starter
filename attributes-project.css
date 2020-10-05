@@ -66,8 +66,11 @@ a:visited, a > span:visited {
 
   #leftbar, #center, #rightbar {
     float: left;
-    padding: 0px, 30px;
+    padding: 0px 30px;
     box-sizing: border-box;
+  }
+  #center *{
+    padding: 0px 0px;
   }
 
   footer {
@@ -82,10 +85,11 @@ a:visited, a > span:visited {
     width: 50%;
     border: 1px solid #464646;
     border-radius: 10px;
+    display: flex;
+
   }
 
   #center div {
-    float: left;
     width: 33%;
   }
 
@@ -100,6 +104,9 @@ a:visited, a > span:visited {
   }
 .clfooter > li {
   display: inline;
+  padding-right: 5px;
+}
+ul.clfooter {
   padding-right: 5px;
 }
 h4.ban::before {
