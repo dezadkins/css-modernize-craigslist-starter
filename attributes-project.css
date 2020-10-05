@@ -50,3 +50,41 @@ ul {
 ul > li {
   list-style: none;
 }
+
+a:hover, a > span:hover {
+color: #800080;
+font-weight: bold;
+}
+
+a:visited, a > span:visited {
+  color: #800080;
+  }
+
+  .page-container {
+    max-width: 1200px;
+  }
+
+  #leftbar, #center, #rightbar {
+    float: left;
+    padding: 0px, 30px;
+    box-sizing: border-box;
+  }
+
+  footer {
+  clear: both;
+  }
+
+  #leftbar, #rightbar{
+    width: 25%;
+  }
+
+  #center{
+    width: 50%;
+    border: 1px solid #464646;
+    border-radius: 10px;
+  }
+
+  #center div {
+    float: left;
+    width: 33%;
+  }
