@@ -102,3 +102,7 @@ a:visited, a > span:visited {
   display: inline;
   padding-right: 5px;
 }
+h4.ban::before {
+  content: '☮️';
+  color: purple;
+}
